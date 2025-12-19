@@ -5,7 +5,7 @@ async function fetchRecitas() {
         console.log(dadosReceitas);
         for(let valor of Object.values(dadosReceitas)){
 
-            console.log(valor);
+            console.log(Object.values(valor.ingredientes));
         }
         
     } catch (error) {
